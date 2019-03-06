@@ -96,7 +96,9 @@ public class LogmaticAppender {
 
     public void append(String data) {
         // prefix all events by token
-        cache.offer(token + ' ' + data + '\n');
+        String data1 = "{\"ddsource\":\"mobile application\",\"custom\":" + data +
+            ",\"syslog\": { \"appname\": \"android\" } }";
+        cache.offer(token + ' ' + data1 + '\n');
     }
 
 

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'io.logmatic'
+    PUBLISH_GROUP_ID = 'alxcmmn'
     PUBLISH_ARTIFACT_ID = 'android-log'
     PUBLISH_VERSION = '0.2'
 }
